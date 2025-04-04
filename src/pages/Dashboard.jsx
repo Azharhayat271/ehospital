@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import axios from "../services/axios";
 import AdminSidebar from "../components/sidebars/AdminSidebar";
-import pictwo from "../assets/Patient.png";
+// import doctorpic from "../assets/Patient.png";
 import doctorpic from "../assets/doctor.png";
 import nursepic from "../assets/nurse.png";
 import supportpic from "../assets/support-staft.png";
@@ -120,7 +120,7 @@ function Dashboard() {
             <Card
               cardname="Patients"
               number={patients?.length}
-              pic={`${pictwo}`}
+              pic={`${doctorpic}`}
               linkTo={"/admin/patients"}
             />
             <Card
@@ -201,7 +201,7 @@ function Dashboard() {
             <Card
               cardname="Patients"
               number={patients?.length}
-              pic={`${pictwo}`}
+              pic={`${doctorpic}`}
               linkTo={"/doctor/patients"}
             />
             <Card
@@ -287,7 +287,7 @@ function Dashboard() {
             <Card
               cardname="Patients"
               number={patients?.length}
-              pic={`${pictwo}`}
+              pic={`${doctorpic}`}
               linkTo={"/nurse/patients"}
             />
             <Card
@@ -349,7 +349,7 @@ function Dashboard() {
             <Card
               cardname="Patients"
               number={patients?.length}
-              pic={`${pictwo}`}
+              pic={`${doctorpic}`}
               linkTo={"/pharmacist/patients"}
             />
             <Card
@@ -448,7 +448,7 @@ function Dashboard() {
             <Card
               cardname="Patients"
               number={patients?.length}
-              pic={`${pictwo}`}
+              pic={`${doctorpic}`}
               linkTo={"/receptionist/patients"}
             />
             <Card
