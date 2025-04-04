@@ -52,9 +52,8 @@ function AdminScreenshots() {
         <div className="pt-8 flex justify-center items-center">
           <span>camera</span>
 {/*           <span>{React.createElement(FcCamera, { size: "30" })}</span>
-          <h1 className="text-center text-sm lg:text-xl text-indigo-900 font-extrabold"> */}
+          className="text-center text-sm lg:text-xl text-indigo-900 font-extrabold"> */}
             Admin Screenshots
-          </h1>
         </div>
         <div className="pt-8">
           {photos?.map((photo, i) => (
