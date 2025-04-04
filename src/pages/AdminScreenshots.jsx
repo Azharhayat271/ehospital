@@ -1,5 +1,5 @@
 import React from "react";
-import { FcCamera } from "react-icons/Fc";
+// import { FcCamera } from "react-icons/Fc";
 import admindashboard from "../assets/admindashboard.jpg";
 import doctorslist from "../assets/doctorslist.jpg";
 import adddoctor from "../assets/adddoctor.jpg";
@@ -50,8 +50,9 @@ function AdminScreenshots() {
     <div className="flex">
       <div className="w-48 lg:w-64 font-semibold bg-gray-300 fixed px-2 gap-0">
         <div className="pt-8 flex justify-center items-center">
-          <span>{React.createElement(FcCamera, { size: "30" })}</span>
-          <h1 className="text-center text-sm lg:text-xl text-indigo-900 font-extrabold">
+          <span>camera</span>
+{/*           <span>{React.createElement(FcCamera, { size: "30" })}</span>
+          <h1 className="text-center text-sm lg:text-xl text-indigo-900 font-extrabold"> */}
             Admin Screenshots
           </h1>
         </div>
